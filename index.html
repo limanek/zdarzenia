@@ -14,7 +14,7 @@
         <div class="task">
             <h2>Zadanie 1.</h2>
             <div class="task-content">
-                <!-- TU MOŻESZ UMIEŚCIĆ POTRZEBNY KOD HTML DO ZADANIA -->
+                <div id="mouse-events"></div>
             </div>
         </div>
 
@@ -62,7 +62,12 @@
         </div>
     </div>
     <script>
-        // TU UMIEŚĆ KOD JS
+        //task1
+        const kw = document.getElementById("mouse-events");
+        kw.addEventListener('mouseover', ()=> console.log("mouseover"));
+        kw.addEventListener('mouseout', ()=> console.log("mouseout"));
+        kw.addEventListener('mousedown', ()=> console.log("mousedown"));
+        kw.addEventListener('mouseup', ()=> console.log("mouseup"));
     </script>
 </body>
 </html>

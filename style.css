@@ -33,7 +33,12 @@ body {
     height: 500px;
     justify-content: flex-start;
 }
-
+/*zad1*/
+#mouse-events {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
 /* ZADANIE 5 */
 #task-5 {
     border: 2px dashed red;
