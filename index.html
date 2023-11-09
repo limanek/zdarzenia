@@ -21,7 +21,8 @@
         <div class="task">
             <h2>Zadanie 2.</h2>
             <div class="task-content">
-                <!-- TU MOŻESZ UMIEŚCIĆ POTRZEBNY KOD HTML DO ZADANIA -->
+                <input type="text" id="input2">
+                <div id="task2"></div>
             </div>
         </div>
 
@@ -68,6 +69,11 @@
         kw.addEventListener('mouseout', ()=> console.log("mouseout"));
         kw.addEventListener('mousedown', ()=> console.log("mousedown"));
         kw.addEventListener('mouseup', ()=> console.log("mouseup"));
+
+        const input2 = document.getElementById("input2");
+        const task2 = document.getElementById("task2");
+
+        input2.addEventListener(`keydown`, (el) => console.log(el.key));
     </script>
 </body>
 </html>
