@@ -36,6 +36,10 @@
         <div class="task">
             <h2>Zadanie 4.</h2>
             <div class="task-content">
+
+                <textarea name="text" id="textarea5" cols="30" rows="10"></textarea>
+                <div id="div5"></div>
+
                 <!-- TU MOŻESZ UMIEŚCIĆ POTRZEBNY KOD HTML DO ZADANIA -->
             </div>
         </div>
@@ -74,6 +78,14 @@
         const task2 = document.getElementById("task2");
 
         input2.addEventListener(`keydown`, (el) => console.log(el.key));
+
+        //zad5
+        const textarea5 = document.getElementById("textarea5");
+        const div5 = document.getElementById("div5");
+
+        textarea5.addEventListener(`keydown`, (el) => {
+            div5.innerText += el.key;
+        });
     </script>
 </body>
 </html>

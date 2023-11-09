@@ -39,6 +39,13 @@ body {
     height: 100px;
     background-color: aqua;
 }
+/*zad4*/
+#div5 {
+    width: 240px;
+    height: 150px;
+    background-color: rgb(193, 195, 197);
+    border: 1px solid black;
+}
 /* ZADANIE 5 */
 #task-5 {
     border: 2px dashed red;
